@@ -1,37 +1,44 @@
 <!doctype html>
 <html lang="pt-br">
 	<head>
-		<title>Login | Web Store</title>
-		
-		<!-- Meta -->
 		<meta charset="utf-8">
-
-		<!-- CSS -->
+		<title>BIZ</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/custom.css">
 	</head>
 	<body>
-		<!-- <div class="row row-blue"></div> -->
 		<div class="container">
-			<div class="row">
-				<h1 class="logo"><span class="glyphicon glyphicon-th-large"></span> Web Store</h1>
-			</div>
-			<div class="row">
-				<div class="col-lg-5">
-					<form action="#" class="form-login form-login-centered" role="form">
-						<div class="form-avatar-login">
-							<img src="img/avatar.png" class="img-circle center-block" width="125" height="125" alt="">
-						</div>
-						<div class="form-group">
-							<input type="email" name="email" id="email" class="form-control center-block" placeholder="E-mail">
-							<input type="password" name="passwd" id="passwd" class="form-control center-block" placeholder="Senha">
-						</div>
-						<button type="submit" id="" class="btn btn-primary btn-login center-block">Entrar</button>
-					</form>
+			<div class="bg-biz"></div>
+			<form action="#" class="form-signin" method="post">
+				<h2 class="form-signin-heading">BIZ<sup>&reg;</sup></h2>
+				<div class="input-group">
+					<span class="input-group-addon glyphicon glyphicon-user"> </span>
+					<input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email" required autofocus>
 				</div>
+				<div class="input-group">
+					<span class="input-group-addon glyphicon glyphicon-lock"> </span>
+					<input type="password" name="password" id="password" class="form-control" placeholder="Digite sua senha" required>
+				</div>
+				<label class="checkbox">
+					<input type="checkbox" name="" id="" value=""> Lembre-me
+				</label>
+				<button class="btn btn-lg btn-primary btn-block" type="submit">Acessar</button>
+			</form>
+			<div class="social">
+				<nav>
+					<ul>
+						<li><a href="#">Facebook</a></li>
+						<li>&bull;</li>
+						<li><a href="#">Twitter</a></li>
+						<li>&bull;</li>
+						<li><a href="#">Google+</a></li>
+					</ul>
+				</nav>
 			</div>
-		</div>		
+		</div>
+		
 		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

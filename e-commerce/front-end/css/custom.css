@@ -1,67 +1,102 @@
+/* GLOBAL */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+
 body {
-	background: url(../img/bg.png) repeat;
-	color: #241b29;
+	background-color: #94c2cf;
+	font-family: 'Raleway', sans-serif;
+  	font-weight: 200;
 }
 
-/* Font */
-
-/*@import url(http://fonts.googleapis.com/css?family=Fredoka+One);*/
-@import url(http://fonts.googleapis.com/css?family=Nixie+One);
-
-.row-blue {
-	position: absolute;
-	top: 0;
+.bg-biz {
+	background: url('../img/logo-biz.jpg') center center;
+	min-height: 450px;
 	width: 100%;
-	border: 3px solid #ccc;
 }
 
-/* Login */
+/* LOGIN */
 
-.form-login {
+.form-signin {
 	position: absolute;
-	background-color: #fff;
 	width: 350px;
-	height: 400px;
-	border: 1px solid #ccc;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	box-shadow: 0 0 5px #ccc;
-}
-
-.form-login-centered {
-	position: absolute;
+	padding: 15px;
 	top: 50%;
 	left: 50%;
-	margin-top: 220px;
-	margin-left: 175px;
+	margin-top: -175px;
+	margin-left: -175px;
+}
+.form-signin .form-signin-heading {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 10rem;
+	text-shadow: 3px 3px 3px #aaa;
+	margin-bottom: 50px;
+}
+.form-signin .form-signin-heading sup {
+	position: relative;
+	font-size: 2rem;
+	top: -70px;
+	left: 10px;
+}
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+.form-signin .checkbox {
+	font-weight: normal;
+}
+.form-signin .form-control {
+	position: relative;
+	font-size: 15px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+.form-signin button {
+	background-color: #94c2cf;
+	text-transform: uppercase;
+	border-radius: 0;	
+}
+.form-signin button:hover {
+	background-color: #94c2cf;
+	box-shadow: 0 0 10px white;
 }
 
-.form-login input {
-	width: 250px;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-}
+/* SOCIAL */
 
-.form-avatar-login {
-	padding: 50px;
-}
-
-.btn-login {
-	width: 250px;
-	font-weight: bold;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-}
-
-.logo {
+.social {
 	position: absolute;
-	/*font-family: 'Fredoka One', cursive;*/
-	font-family: 'Nixie One', cursive;
-	font-size: 4.5rem;
-	color: #ccc;
-	margin: 100px 450px auto;
-	text-shadow: 2px 2px #aaa;
+	width: 350px;
+	padding: 15px;
+	top: 50%;
+	left: 50%;
+	bottom: 0;
+	margin-top: 200px;
+	margin-left: -175px;
+}
+.social > nav > ul {
+	position: relative;
+	top: 30px;
+}
+.social > nav > ul > li {
+	color: white;
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+.social > nav > ul > li a {
+	color: white;
+}
+.social > nav > ul > li a:hover {
+	color: #eee;
+	text-decoration: none;
 }
