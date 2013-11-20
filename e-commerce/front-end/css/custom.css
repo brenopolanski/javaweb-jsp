@@ -29,7 +29,7 @@ header .logo:after {
 }
 
 .bg-biz {
-	background: url('../img/logo-biz.jpg') center center;
+	background: url(../img/logo-biz.jpg) center center;
 	min-height: 450px;
 	width: 100%;
 }
@@ -170,6 +170,39 @@ header .logo:after {
 }
 .social > nav > ul > li a:hover {
 	color: #eee;
+}
+
+/* USER PROFILE */
+
+.box-user {
+	padding: 25px;
+}
+
+.user-icon {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	vertical-align: text-bottom;
+}
+.icon-female {
+	background: url(../img/female.png);
+}
+.icon-male {
+	background: url(../img/male.png);
+}
+.user-name {
+	padding-left: 8px;
+	text-transform: uppercase;
+}
+
+/* SALE */
+
+.box-sale {
+	padding: 20px;
+}
+
+.badge-success {
+	background-color: #5cb85c;
 }
 
 /* DASHBOARD */
