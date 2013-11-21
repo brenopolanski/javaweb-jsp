@@ -195,9 +195,9 @@ header .logo:after {
 	text-transform: uppercase;
 }
 
-/* SALE */
+/* SALE AND NEW SHIRT */
 
-.box-sale {
+.box-sale, .box-new-shirt {
 	padding: 20px;
 }
 
@@ -205,50 +205,84 @@ header .logo:after {
 	background-color: #5cb85c;
 }
 
-/* DASHBOARD */
+/* SHOWCASE */
+
+.container-showcase {
+	margin-top: 100px;
+}	
 
 .showcase {
-	max-width: 400px;
-	height: 400px;
-	/*border: 1px solid white;*/
-}
-
-.showcase .misc {
-	position: absolute;
-	top: 350px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border: 1px solid #000;
-}
-
-.showcase .misc > .misc-tools {
-	background-color: white;
-	width: 70px;
-	height: 50px;
-	border: 1px solid #000;
-	display: inline-block;
-}
-
-.showcase .misc > .misc-tools > img {
 	position: relative;
-	top: 10px;
-	left: 20px;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #fff;
+	height: 500px;
 }
 
 .shirt-back {
 	position: absolute;
-	background-color: black;
+	background-color: #94c2cf;
 	width: 50px;
 	height: 50px;
+	top: 0;
 	right: 0;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	cursor: pointer;
 }
 
-.shirt-back .glyphicon-repeat {
+.shirt-show {
+	position: inherit;
+	top: 70px;
+}
+
+.misc {
+	position: absolute;
+	background-color: #94c2cf;
+	width: 100%;
+	height: 50px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid white;
+}
+
+.misc-box-tool {
 	position: relative;
+	width: 71.5px;
+	height: 50px;
+	left: 0;
+	float: left;
+	border-right: 1px solid white;
+	cursor: pointer;
+}
+.misc-box-tool:nth-child(5) {
+	border-right: none;	
+}
+
+.glyphicon-share-alt {
+	position: absolute;
+	top: 14px;
+	left: 14px;
 	font-size: 2rem;
 	color: white;
-	top: 15px;
+}
+
+.glyphicon-up {
+	position: absolute;
+	top: 9px;
+	left: 20px;
+	font-size: 3rem;
+	color: white;
+}
+
+.tam-shirt {
+	position: absolute;
+	top: 3px;
+	left: 22px;
+	font-size: 3rem;
+	font-weight: bold;
+	color: white;
 }
 
 /* MEDIA QUERIES */
