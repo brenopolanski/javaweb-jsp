@@ -1,0 +1,295 @@
+/* GLOBAL */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+body {
+	background-color: #94c2cf;
+	font-family: 'Raleway', sans-serif;
+  	font-weight: 200;
+}
+
+/* logo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+header .logo {
+	font-size: 40px;
+	color: white;
+	padding: 5px;
+	padding-left: 10px; 
+	float: left;
+}
+
+header .logo:after {
+	content: ' BIZ';
+	font-weight: 400;
+	text-shadow: 2px 2px 2px #aaa;
+}
+
+.bg-biz {
+	background: url(../img/logo-biz.jpg) center center;
+	min-height: 450px;
+	width: 100%;
+}
+
+/* LOGIN */
+
+.form-signin {
+	position: absolute;
+	width: 350px;
+	padding: 15px;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -175px;
+}
+.form-signin .form-signin-heading {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 10rem;
+	text-shadow: 3px 3px 3px #aaa;
+	margin-bottom: 50px;
+}
+.form-signin .form-signin-heading sup {
+	position: relative;
+	font-size: 2rem;
+	top: -70px;
+	left: 10px;
+}
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+.form-signin .checkbox {
+	font-weight: normal;
+}
+.form-signin .form-control {
+	position: relative;
+	font-size: 15px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin .input-group-addon {
+	-webkit-border-radius: 0;	
+	-moz-border-radius: 0;	
+	border-radius: 0;	
+}
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+	margin-bottom: -1px;
+	-webkit-border-radius: 0;	
+	-moz-border-radius: 0;	
+	border-radius: 0;	
+}
+.form-signin button {
+	background-color: #94c2cf;
+	text-transform: uppercase;
+	-webkit-border-radius: 0;	
+	-moz-border-radius: 0;	
+	border-radius: 0;		
+}
+.form-signin button:hover {
+	background-color: #94c2cf;
+	box-shadow: 0 0 10px white;	
+}
+
+/* NOVO USUÁRIO */
+
+.form-signin .form-signin-newuser {
+	position: absolute;
+	color: black;
+	font-size: 1.3rem;
+	right: 15px;
+	top: 170px;
+}
+
+/* MODAL NOVO USUÁRIO */
+
+.modal-newuser {
+	width: 350px;
+	border-radius: 0;
+	border: none;
+	left: 123px;
+	-webkit-box-shadow: 0 3px 9px white;
+	-moz-box-shadow: 0 3px 9px white;
+			box-shadow: 0 3px 9px white;				
+}
+.modal-newuser input[type="text"],
+.modal-newuser input[type="email"],
+.modal-newuser select {
+	-webkit-border-radius: 0;	
+	-moz-border-radius: 0;	
+	border-radius: 0;
+}
+.modal-newuser .btn-success {
+	font-size: 1rem;
+	text-transform: uppercase;
+	-webkit-border-radius: 0;	
+	-moz-border-radius: 0;	
+	border-radius: 0;
+}
+.modal-newuser .btn-default {
+	font-size: 1rem;
+	text-transform: uppercase;
+	-webkit-border-radius: 0;	
+	-moz-border-radius: 0;	
+	border-radius: 0;
+}
+
+/* SOCIAL */
+
+.social {
+	position: absolute;
+	width: 350px;
+	padding: 15px;
+	top: 50%;
+	left: 50%;
+	bottom: 0;
+	margin-top: 200px;
+	margin-left: -175px;
+}
+.social > nav > ul {
+	position: relative;
+	top: 30px;
+}
+.social > nav > ul > li {
+	color: white;
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+.social > nav > ul > li a {
+	color: white;
+}
+.social > nav > ul > li a:hover {
+	color: #eee;
+}
+
+/* USER PROFILE */
+
+.box-user {
+	padding: 25px;
+}
+
+.user-icon {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	vertical-align: text-bottom;
+}
+.icon-female {
+	background: url(../img/female.png);
+}
+.icon-male {
+	background: url(../img/male.png);
+}
+.user-name {
+	padding-left: 8px;
+	text-transform: uppercase;
+}
+
+/* SALE AND NEW SHIRT */
+
+.box-sale, .box-new-shirt {
+	padding: 20px;
+}
+
+.badge-success {
+	background-color: #5cb85c;
+}
+
+/* SHOWCASE */
+
+.container-showcase {
+	margin-top: 100px;
+}	
+
+.showcase {
+	position: relative;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #fff;
+	height: 500px;
+}
+
+.shirt-back {
+	position: absolute;
+	background-color: #94c2cf;
+	width: 50px;
+	height: 50px;
+	top: 0;
+	right: 0;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+
+.shirt-show {
+	position: inherit;
+	top: 70px;
+}
+
+.misc {
+	position: absolute;
+	background-color: #94c2cf;
+	width: 100%;
+	height: 50px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid white;
+}
+
+.misc-box-tool {
+	position: relative;
+	width: 71.5px;
+	height: 50px;
+	left: 0;
+	float: left;
+	border-right: 1px solid white;
+	cursor: pointer;
+}
+.misc-box-tool:nth-child(5) {
+	border-right: none;	
+}
+
+.glyphicon-share-alt {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	font-size: 2rem;
+	color: white;
+}
+
+.glyphicon-up {
+	position: absolute;
+	top: 9px;
+	left: 20px;
+	font-size: 3rem;
+	color: white;
+}
+
+.tam-shirt {
+	position: absolute;
+	top: 3px;
+	left: 22px;
+	font-size: 3rem;
+	font-weight: bold;
+	color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 680px) {
+	.modal-newuser {
+		width: 100%;		
+		left: 0;
+	}
+}
